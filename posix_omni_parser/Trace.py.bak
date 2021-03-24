@@ -18,15 +18,13 @@
 """
 from __future__ import absolute_import
 
-from builtins import str
-from builtins import object
 import os
 import sys
 
 from .parsers.StraceParser import StraceParser
 
 
-class Trace(object):
+class Trace:
     """
     <Purpose>
       This object represents an entire system call trace, which means that it 
