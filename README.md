@@ -12,7 +12,7 @@ and Mac OSX) on different POSIX-compliant platforms into a more useful
 representation.
 
 
-Trace Object
+Trace Object.
 ------------
 
   This module contains the Trace object, which is used to capture all the
