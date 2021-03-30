@@ -15,14 +15,11 @@
 """
 from __future__ import print_function
 
-from builtins import str
-from builtins import range
-from builtins import object
 import socket
 
 DEBUG = False
 
-class ParsingClass(object):
+class ParsingClass:
     def __repr__(self):
         return "<" + self.__class__.__name__ + " " + str(self.value) + ">"
 

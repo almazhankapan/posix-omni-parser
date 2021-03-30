@@ -1,6 +1,4 @@
-from builtins import str
-from builtins import object
-class SyscallParameter(object):
+class SyscallParameter:
     """
     <Purpose>
       This object is used to describe a parameter of system call definitions.
